@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-signin {
+  width: 300px;
+  margin: auto;
+}
+
+.amount-group {
+  display: flex;
+  justify-content: center;
+}
+
+.amount-labels {
+  display: block;
+  margin-top: 5px;
+  padding-right: 15px;
+}
+
+input.form-control {
+  height: 31px;
+}
+
+.label-group-separator {
+  width: 50px;
+}
+
+button.btn.btn-default {
+  height: 31px;
+}
+
+select {
+  padding: 5px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(119, 119, 119, 0.5);
+}
+
+.time-group {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.logout-group{
+  margin-top: 15px;
+  cursor: pointer;    
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+fieldset.transfer-money-border {
+  border: 1px groove #ddd !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  margin: 0 0 1.5em 0 !important;
+  -webkit-box-shadow:  0px 0px 0px 0px #000;
+          box-shadow:  0px 0px 0px 0px #000;
+}
+
+  legend.transfer-money-border {
+      font-size: 1.2em !important;
+      font-weight: bold !important;
+      text-align: left !important;
+      width:auto;
+      padding:0 10px;
+      border-bottom:none;
+  }
+
+  .common-inline {
+    display: flex;
+  }
+
+  .loggedin-user-header {
+    display: block;
+    margin-top: 15px;
+    padding-right: 20px;
+  }
+
+  .nav-header {
+    font-style: italic;
+  }
+
+  .error-msg {
+    color: red;
+  }
